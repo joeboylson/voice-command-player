@@ -1,0 +1,33 @@
+:root {
+    --video-ratio: 0.5625;
+}
+
+#video {
+    width: var(--main-content-width);
+    height: calc( var(--main-content-width) * var(--video-ratio) );
+}
+
+.slider {
+
+    .marker-wrapper {
+        position: relative;
+        
+        .marker {
+            display: block;
+            width: 16px;
+            height: 16px;
+            font-size: 10px;
+            background-color: var(--dark);
+            color: white;
+            border-radius: 16px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition-duration: 0.25s;
+
+            display: grid;
+            place-items: center;
+            cursor: pointer;
+        }
+    }
+}

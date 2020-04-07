@@ -1,0 +1,15 @@
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30vw;
+    height: 100vh;
+    background-color: var(--gray);
+
+    display: flex;
+    flex-direction: column;
+
+    .icon-button {
+        margin: 13px;
+    }
+}

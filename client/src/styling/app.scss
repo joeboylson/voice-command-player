@@ -1,0 +1,15 @@
+:root {
+    --main-content-width: calc(70vw - 110px)
+}
+
+main {
+    width: 100%;
+    background-color: var(--light);
+
+    // ...nav.scss
+
+    #main-content {
+        flex: 0 0 var(--main-content-width);
+        margin: 55px 55px 0 calc(30vw + 55px);
+    }
+}
