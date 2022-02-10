@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^7.1.2",
     "@u-wave/react-youtube": "^0.7.1",
     "anycontrol": "^0.2.4",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "pubsub-js": "^1.8.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
